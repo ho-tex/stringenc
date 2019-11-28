@@ -5,7 +5,10 @@ module = "stringenc"
 
 textfiles = {"README.md"}
 unpackfiles = {'stringenc.dtx'}
+installfiles = {'*.def','*.sty','*.dtx','*.pdf',}
 
+
+packtdszip  = true
 
 tdslocations={
 "doc/latex/oberdiek/stringenc.pdf",
